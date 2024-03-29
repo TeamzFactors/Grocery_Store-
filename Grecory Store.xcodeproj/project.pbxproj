@@ -1,0 +1,1120 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BC2A8D7A4E61DE9384558CF /* Pods_Grecory_Store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA76D279B7CAAC3CA0575CC4 /* Pods_Grecory_Store.framework */; };
+		83157A174549F55B1BC37EEC /* Pods_Grecory_StoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4E8C83DC0FF45482CDE55D /* Pods_Grecory_StoreTests.framework */; };
+		8E16158D293DE221007855D6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8E16158C293DE221007855D6 /* FirebaseAuth */; };
+		8E16158F293DE26F007855D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E16158E293DE26F007855D6 /* GoogleService-Info.plist */; };
+		8E2CB8B0292A46F700D37A78 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2CB8AF292A46F700D37A78 /* Cell.swift */; };
+		8E69A7FC2921E81D000CB7EA /* N1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E69A7FB2921E81D000CB7EA /* N1.swift */; };
+		8E8C7FD22929F192004F5676 /* Store.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C7FD12929F192004F5676 /* Store.sqlite */; };
+		8E9CC5EB292F236600BAE394 /* เนื้อ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9CC5E7292F236500BAE394 /* เนื้อ.jpg */; };
+		8E9CC5EC292F236600BAE394 /* ผัก.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9CC5E8292F236500BAE394 /* ผัก.jpg */; };
+		8E9CC5ED292F236600BAE394 /* ผลไม้.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9CC5E9292F236500BAE394 /* ผลไม้.jpg */; };
+		8E9CC5EE292F236600BAE394 /* น้ำอัดลม.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9CC5EA292F236500BAE394 /* น้ำอัดลม.jpg */; };
+		9F8EB8AA3FABF3FDD47C93F2 /* Pods_Grecory_Store_Grecory_StoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5409BF37F2542E21364669 /* Pods_Grecory_Store_Grecory_StoreUITests.framework */; };
+		C9400FAE2939E7F000C43A11 /* ImageGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9400FAD2939E7F000C43A11 /* ImageGif.swift */; };
+		C9400FB22939E9DE00C43A11 /* cart.gif in Resources */ = {isa = PBXBuildFile; fileRef = C9400FAF2939E9DE00C43A11 /* cart.gif */; };
+		C9400FB32939E9DE00C43A11 /* sale.gif in Resources */ = {isa = PBXBuildFile; fileRef = C9400FB02939E9DE00C43A11 /* sale.gif */; };
+		C9400FB42939E9DE00C43A11 /* run.gif in Resources */ = {isa = PBXBuildFile; fileRef = C9400FB12939E9DE00C43A11 /* run.gif */; };
+		C9400FBE2939F15E00C43A11 /* 007.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9400FB72939F15E00C43A11 /* 007.jpg */; };
+		C9400FC02939F15E00C43A11 /* 004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9400FB92939F15E00C43A11 /* 004.jpg */; };
+		C9400FC12939F15E00C43A11 /* 003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9400FBA2939F15E00C43A11 /* 003.jpg */; };
+		C9400FC22939F15E00C43A11 /* 002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9400FBB2939F15E00C43A11 /* 002.jpg */; };
+		C9400FC32939F15E00C43A11 /* 006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9400FBC2939F15E00C43A11 /* 006.jpg */; };
+		C9400FC42939F15E00C43A11 /* 005.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9400FBD2939F15E00C43A11 /* 005.jpeg */; };
+		C9400FC82939F19900C43A11 /* Reunited.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9400FC72939F19900C43A11 /* Reunited.mp3 */; };
+		C9400FCA2939FF4200C43A11 /* 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9400FC92939FF4200C43A11 /* 001.jpg */; };
+		C9400FCE293A0D3300C43A11 /* play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = C9400FCD293A0D3300C43A11 /* play-button.png */; };
+		C9400FD0293A395400C43A11 /* Cell 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9400FCF293A395400C43A11 /* Cell 2.swift */; };
+		C9400FD2293A3F4B00C43A11 /* Statistic.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C9400FD1293A3F4B00C43A11 /* Statistic.sqlite */; };
+		C9400FDE293CABF700C43A11 /* LucyTheCatRegular-Bg9x.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9400FD4293CABF600C43A11 /* LucyTheCatRegular-Bg9x.ttf */; };
+		C9400FDF293CABF700C43A11 /* benjamin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9400FD5293CABF700C43A11 /* benjamin.ttf */; };
+		C9400FE0293CABF700C43A11 /* Silkscreen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9400FD6293CABF700C43A11 /* Silkscreen-Bold.ttf */; };
+		C9400FE1293CABF700C43A11 /* Mitr-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9400FD7293CABF700C43A11 /* Mitr-Medium.ttf */; };
+		C9400FE2293CABF700C43A11 /* Mitr-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9400FD8293CABF700C43A11 /* Mitr-SemiBold.ttf */; };
+		C9400FE3293CABF700C43A11 /* Mitr-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9400FD9293CABF700C43A11 /* Mitr-Bold.ttf */; };
+		C9400FE4293CABF700C43A11 /* Lulu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9400FDA293CABF700C43A11 /* Lulu.ttf */; };
+		C9400FE5293CABF700C43A11 /* LucythecatRegular-R7mA.otf in Resources */ = {isa = PBXBuildFile; fileRef = C9400FDB293CABF700C43A11 /* LucythecatRegular-R7mA.otf */; };
+		C9400FE6293CABF700C43A11 /* Mitr-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9400FDC293CABF700C43A11 /* Mitr-Regular.ttf */; };
+		C9400FE7293CABF700C43A11 /* Silkscreen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9400FDD293CABF700C43A11 /* Silkscreen-Regular.ttf */; };
+		C95D537C291B396100D84F72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D537B291B396100D84F72 /* AppDelegate.swift */; };
+		C95D537E291B396100D84F72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D537D291B396100D84F72 /* SceneDelegate.swift */; };
+		C95D5380291B396100D84F72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D537F291B396100D84F72 /* ViewController.swift */; };
+		C95D5383291B396100D84F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95D5381291B396100D84F72 /* Main.storyboard */; };
+		C95D5385291B396400D84F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95D5384291B396400D84F72 /* Assets.xcassets */; };
+		C95D5388291B396400D84F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95D5386291B396400D84F72 /* LaunchScreen.storyboard */; };
+		C95D5393291B396400D84F72 /* Grecory_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D5392291B396400D84F72 /* Grecory_StoreTests.swift */; };
+		C95D539D291B396400D84F72 /* Grecory_StoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D539C291B396400D84F72 /* Grecory_StoreUITests.swift */; };
+		C95D539F291B396400D84F72 /* Grecory_StoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D539E291B396400D84F72 /* Grecory_StoreUITestsLaunchTests.swift */; };
+		C95D53B0291B41F400D84F72 /* inventory.png in Resources */ = {isa = PBXBuildFile; fileRef = C95D53AC291B41F400D84F72 /* inventory.png */; };
+		C95D53D4291BBFA700D84F72 /* Store.png in Resources */ = {isa = PBXBuildFile; fileRef = C95D53C9291BBFA700D84F72 /* Store.png */; };
+		C95D53DA291BC86C00D84F72 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C95D53D9291BC86C00D84F72 /* home.png */; };
+		C95D53DE291C07EA00D84F72 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D53DD291C07EA00D84F72 /* Login.swift */; };
+		C95D53E0291C081F00D84F72 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D53DF291C081F00D84F72 /* SignUp.swift */; };
+		C98BEC49293D11D900676D46 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BEC48293D11D900676D46 /* UIButtonExtension.swift */; };
+		C9DF356E29278F5F00669F8A /* account_GRDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C9DF356D29278F5F00669F8A /* account_GRDB.sqlite */; };
+		C9DF357B2927A16100669F8A /* calories.png in Resources */ = {isa = PBXBuildFile; fileRef = C9DF35792927A16100669F8A /* calories.png */; };
+		C9DF357C2927A16100669F8A /* import.png in Resources */ = {isa = PBXBuildFile; fileRef = C9DF357A2927A16100669F8A /* import.png */; };
+		C9DF357E2927D49400669F8A /* product_view.png in Resources */ = {isa = PBXBuildFile; fileRef = C9DF357D2927D49400669F8A /* product_view.png */; };
+		C9DF35802927DC9900669F8A /* N2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF357F2927DC9900669F8A /* N2.swift */; };
+		C9DF35822927DCDD00669F8A /* Page 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF35812927DCDD00669F8A /* Page 1.swift */; };
+		C9DF35842927DD1700669F8A /* Page 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF35832927DD1700669F8A /* Page 2.swift */; };
+		C9DF35862927DD3B00669F8A /* Page 2 Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF35852927DD3B00669F8A /* Page 2 Extra.swift */; };
+		C9DF35882927DD5900669F8A /* Page 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF35872927DD5900669F8A /* Page 3.swift */; };
+		C9DF358A2927DD7C00669F8A /* Page 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF35892927DD7C00669F8A /* Page 4.swift */; };
+		C9DF35952928B4FF00669F8A /* vegetable.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9DF358D2928B4FF00669F8A /* vegetable.jpeg */; };
+		C9DF35962928B4FF00669F8A /* snack.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9DF358E2928B4FF00669F8A /* snack.jpeg */; };
+		C9DF35972928B4FF00669F8A /* starchy.png in Resources */ = {isa = PBXBuildFile; fileRef = C9DF358F2928B4FF00669F8A /* starchy.png */; };
+		C9DF35982928B4FF00669F8A /* dairy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9DF35902928B4FF00669F8A /* dairy.jpeg */; };
+		C9DF35992928B4FF00669F8A /* fruit.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9DF35912928B4FF00669F8A /* fruit.jpeg */; };
+		C9DF359A2928B4FF00669F8A /* meat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9DF35922928B4FF00669F8A /* meat.jpeg */; };
+		C9DF359B2928B4FF00669F8A /* seafood.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9DF35932928B4FF00669F8A /* seafood.jpeg */; };
+		C9DF359C2928B4FF00669F8A /* drink.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9DF35942928B4FF00669F8A /* drink.jpeg */; };
+		C9DF359E2928B8F500669F8A /* Page 4 Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF359D2928B8F500669F8A /* Page 4 Extra.swift */; };
+		C9DF35A12928C1C100669F8A /* noodles.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9DF359F2928C1C100669F8A /* noodles.jpeg */; };
+		C9DF35A22928C1C100669F8A /* legume.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9DF35A02928C1C100669F8A /* legume.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C95D538F291B396400D84F72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C95D5370291B396100D84F72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C95D5377291B396100D84F72;
+			remoteInfo = "Grecory Store";
+		};
+		C95D5399291B396400D84F72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C95D5370291B396100D84F72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C95D5377291B396100D84F72;
+			remoteInfo = "Grecory Store";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0760E3E71CDFCDE108362227 /* Pods-Grecory Store-Grecory StoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grecory Store-Grecory StoreUITests.release.xcconfig"; path = "Target Support Files/Pods-Grecory Store-Grecory StoreUITests/Pods-Grecory Store-Grecory StoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		09AC7A8232C22E046550C1C2 /* Pods-Grecory Store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grecory Store.debug.xcconfig"; path = "Target Support Files/Pods-Grecory Store/Pods-Grecory Store.debug.xcconfig"; sourceTree = "<group>"; };
+		3C5409BF37F2542E21364669 /* Pods_Grecory_Store_Grecory_StoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grecory_Store_Grecory_StoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		724AA0A57632242E6C3E3857 /* Pods-Grecory Store-Grecory StoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grecory Store-Grecory StoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-Grecory Store-Grecory StoreUITests/Pods-Grecory Store-Grecory StoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E16158E293DE26F007855D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E2CB8AF292A46F700D37A78 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		8E69A7FB2921E81D000CB7EA /* N1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N1.swift; sourceTree = "<group>"; };
+		8E8C7FD12929F192004F5676 /* Store.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Store.sqlite; sourceTree = "<group>"; };
+		8E9CC5E7292F236500BAE394 /* เนื้อ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "เนื้อ.jpg"; sourceTree = "<group>"; };
+		8E9CC5E8292F236500BAE394 /* ผัก.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ผัก.jpg"; sourceTree = "<group>"; };
+		8E9CC5E9292F236500BAE394 /* ผลไม้.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ผลไม้.jpg"; sourceTree = "<group>"; };
+		8E9CC5EA292F236500BAE394 /* น้ำอัดลม.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "น้ำอัดลม.jpg"; sourceTree = "<group>"; };
+		AF4E8C83DC0FF45482CDE55D /* Pods_Grecory_StoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grecory_StoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA76D279B7CAAC3CA0575CC4 /* Pods_Grecory_Store.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grecory_Store.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9400FAD2939E7F000C43A11 /* ImageGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGif.swift; sourceTree = "<group>"; };
+		C9400FAF2939E9DE00C43A11 /* cart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cart.gif; sourceTree = "<group>"; };
+		C9400FB02939E9DE00C43A11 /* sale.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sale.gif; sourceTree = "<group>"; };
+		C9400FB12939E9DE00C43A11 /* run.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = run.gif; sourceTree = "<group>"; };
+		C9400FB72939F15E00C43A11 /* 007.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 007.jpg; sourceTree = "<group>"; };
+		C9400FB92939F15E00C43A11 /* 004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 004.jpg; sourceTree = "<group>"; };
+		C9400FBA2939F15E00C43A11 /* 003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 003.jpg; sourceTree = "<group>"; };
+		C9400FBB2939F15E00C43A11 /* 002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 002.jpg; sourceTree = "<group>"; };
+		C9400FBC2939F15E00C43A11 /* 006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 006.jpg; sourceTree = "<group>"; };
+		C9400FBD2939F15E00C43A11 /* 005.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 005.jpeg; sourceTree = "<group>"; };
+		C9400FC72939F19900C43A11 /* Reunited.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Reunited.mp3; sourceTree = "<group>"; };
+		C9400FC92939FF4200C43A11 /* 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001.jpg; sourceTree = "<group>"; };
+		C9400FCD293A0D3300C43A11 /* play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button.png"; sourceTree = "<group>"; };
+		C9400FCF293A395400C43A11 /* Cell 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cell 2.swift"; sourceTree = "<group>"; };
+		C9400FD1293A3F4B00C43A11 /* Statistic.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Statistic.sqlite; sourceTree = "<group>"; };
+		C9400FD4293CABF600C43A11 /* LucyTheCatRegular-Bg9x.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LucyTheCatRegular-Bg9x.ttf"; sourceTree = "<group>"; };
+		C9400FD5293CABF700C43A11 /* benjamin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = benjamin.ttf; sourceTree = "<group>"; };
+		C9400FD6293CABF700C43A11 /* Silkscreen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Bold.ttf"; sourceTree = "<group>"; };
+		C9400FD7293CABF700C43A11 /* Mitr-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mitr-Medium.ttf"; sourceTree = "<group>"; };
+		C9400FD8293CABF700C43A11 /* Mitr-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mitr-SemiBold.ttf"; sourceTree = "<group>"; };
+		C9400FD9293CABF700C43A11 /* Mitr-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mitr-Bold.ttf"; sourceTree = "<group>"; };
+		C9400FDA293CABF700C43A11 /* Lulu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lulu.ttf; sourceTree = "<group>"; };
+		C9400FDB293CABF700C43A11 /* LucythecatRegular-R7mA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LucythecatRegular-R7mA.otf"; sourceTree = "<group>"; };
+		C9400FDC293CABF700C43A11 /* Mitr-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mitr-Regular.ttf"; sourceTree = "<group>"; };
+		C9400FDD293CABF700C43A11 /* Silkscreen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Regular.ttf"; sourceTree = "<group>"; };
+		C95D5378291B396100D84F72 /* Grecory Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grecory Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95D537B291B396100D84F72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C95D537D291B396100D84F72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C95D537F291B396100D84F72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C95D5382291B396100D84F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C95D5384291B396400D84F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C95D5387291B396400D84F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C95D5389291B396400D84F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95D538E291B396400D84F72 /* Grecory StoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grecory StoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95D5392291B396400D84F72 /* Grecory_StoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grecory_StoreTests.swift; sourceTree = "<group>"; };
+		C95D5398291B396400D84F72 /* Grecory StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grecory StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95D539C291B396400D84F72 /* Grecory_StoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grecory_StoreUITests.swift; sourceTree = "<group>"; };
+		C95D539E291B396400D84F72 /* Grecory_StoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grecory_StoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C95D53AC291B41F400D84F72 /* inventory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inventory.png; sourceTree = "<group>"; };
+		C95D53C9291BBFA700D84F72 /* Store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Store.png; sourceTree = "<group>"; };
+		C95D53D9291BC86C00D84F72 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		C95D53DD291C07EA00D84F72 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		C95D53DF291C081F00D84F72 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		C98BEC48293D11D900676D46 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		C9DF356D29278F5F00669F8A /* account_GRDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = account_GRDB.sqlite; sourceTree = "<group>"; };
+		C9DF35792927A16100669F8A /* calories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calories.png; sourceTree = "<group>"; };
+		C9DF357A2927A16100669F8A /* import.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = import.png; sourceTree = "<group>"; };
+		C9DF357D2927D49400669F8A /* product_view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_view.png; sourceTree = "<group>"; };
+		C9DF357F2927DC9900669F8A /* N2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N2.swift; sourceTree = "<group>"; };
+		C9DF35812927DCDD00669F8A /* Page 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 1.swift"; sourceTree = "<group>"; };
+		C9DF35832927DD1700669F8A /* Page 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 2.swift"; sourceTree = "<group>"; };
+		C9DF35852927DD3B00669F8A /* Page 2 Extra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 2 Extra.swift"; sourceTree = "<group>"; };
+		C9DF35872927DD5900669F8A /* Page 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 3.swift"; sourceTree = "<group>"; };
+		C9DF35892927DD7C00669F8A /* Page 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 4.swift"; sourceTree = "<group>"; };
+		C9DF358D2928B4FF00669F8A /* vegetable.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable.jpeg; sourceTree = "<group>"; };
+		C9DF358E2928B4FF00669F8A /* snack.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snack.jpeg; sourceTree = "<group>"; };
+		C9DF358F2928B4FF00669F8A /* starchy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starchy.png; sourceTree = "<group>"; };
+		C9DF35902928B4FF00669F8A /* dairy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dairy.jpeg; sourceTree = "<group>"; };
+		C9DF35912928B4FF00669F8A /* fruit.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruit.jpeg; sourceTree = "<group>"; };
+		C9DF35922928B4FF00669F8A /* meat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meat.jpeg; sourceTree = "<group>"; };
+		C9DF35932928B4FF00669F8A /* seafood.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seafood.jpeg; sourceTree = "<group>"; };
+		C9DF35942928B4FF00669F8A /* drink.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drink.jpeg; sourceTree = "<group>"; };
+		C9DF359D2928B8F500669F8A /* Page 4 Extra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 4 Extra.swift"; sourceTree = "<group>"; };
+		C9DF359F2928C1C100669F8A /* noodles.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodles.jpeg; sourceTree = "<group>"; };
+		C9DF35A02928C1C100669F8A /* legume.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = legume.jpeg; sourceTree = "<group>"; };
+		E15E91A8668107145F883647 /* Pods-Grecory StoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grecory StoreTests.debug.xcconfig"; path = "Target Support Files/Pods-Grecory StoreTests/Pods-Grecory StoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E201C86F99E18C629A200949 /* Pods-Grecory StoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grecory StoreTests.release.xcconfig"; path = "Target Support Files/Pods-Grecory StoreTests/Pods-Grecory StoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3B7065F72D5F0CD9E5AC86E /* Pods-Grecory Store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grecory Store.release.xcconfig"; path = "Target Support Files/Pods-Grecory Store/Pods-Grecory Store.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C95D5375291B396100D84F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC2A8D7A4E61DE9384558CF /* Pods_Grecory_Store.framework in Frameworks */,
+				8E16158D293DE221007855D6 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95D538B291B396400D84F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83157A174549F55B1BC37EEC /* Pods_Grecory_StoreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95D5395291B396400D84F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8EB8AA3FABF3FDD47C93F2 /* Pods_Grecory_Store_Grecory_StoreUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E0B25B0292938AA006A9028 /* pagedata */ = {
+			isa = PBXGroup;
+			children = (
+				C9DF35812927DCDD00669F8A /* Page 1.swift */,
+				C9DF35832927DD1700669F8A /* Page 2.swift */,
+				C9DF35852927DD3B00669F8A /* Page 2 Extra.swift */,
+				C9DF35872927DD5900669F8A /* Page 3.swift */,
+				C9DF35892927DD7C00669F8A /* Page 4.swift */,
+				C9DF359D2928B8F500669F8A /* Page 4 Extra.swift */,
+			);
+			path = pagedata;
+			sourceTree = "<group>";
+		};
+		8E9CC5E6292F21EA00BAE394 /* showpic */ = {
+			isa = PBXGroup;
+			children = (
+				C9400FC92939FF4200C43A11 /* 001.jpg */,
+				C9400FBB2939F15E00C43A11 /* 002.jpg */,
+				C9400FBA2939F15E00C43A11 /* 003.jpg */,
+				C9400FB92939F15E00C43A11 /* 004.jpg */,
+				C9400FBD2939F15E00C43A11 /* 005.jpeg */,
+				C9400FBC2939F15E00C43A11 /* 006.jpg */,
+				C9400FB72939F15E00C43A11 /* 007.jpg */,
+			);
+			name = showpic;
+			sourceTree = "<group>";
+		};
+		8E9CD48E291FF84000DC1E60 /* Sign-in */ = {
+			isa = PBXGroup;
+			children = (
+				C95D53DD291C07EA00D84F72 /* Login.swift */,
+				C95D53DF291C081F00D84F72 /* SignUp.swift */,
+			);
+			name = "Sign-in";
+			sourceTree = "<group>";
+		};
+		8FC2B74745C9680C11098D41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09AC7A8232C22E046550C1C2 /* Pods-Grecory Store.debug.xcconfig */,
+				F3B7065F72D5F0CD9E5AC86E /* Pods-Grecory Store.release.xcconfig */,
+				724AA0A57632242E6C3E3857 /* Pods-Grecory Store-Grecory StoreUITests.debug.xcconfig */,
+				0760E3E71CDFCDE108362227 /* Pods-Grecory Store-Grecory StoreUITests.release.xcconfig */,
+				E15E91A8668107145F883647 /* Pods-Grecory StoreTests.debug.xcconfig */,
+				E201C86F99E18C629A200949 /* Pods-Grecory StoreTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C9400FB52939E9E200C43A11 /* GifPic */ = {
+			isa = PBXGroup;
+			children = (
+				C9400FAF2939E9DE00C43A11 /* cart.gif */,
+				C9400FB12939E9DE00C43A11 /* run.gif */,
+				C9400FB02939E9DE00C43A11 /* sale.gif */,
+			);
+			name = GifPic;
+			sourceTree = "<group>";
+		};
+		C9400FB62939EA2000C43A11 /* HistoryFacts */ = {
+			isa = PBXGroup;
+			children = (
+				C9DF35A02928C1C100669F8A /* legume.jpeg */,
+				C9DF359F2928C1C100669F8A /* noodles.jpeg */,
+				C9DF35902928B4FF00669F8A /* dairy.jpeg */,
+				C9DF35942928B4FF00669F8A /* drink.jpeg */,
+				C9DF35912928B4FF00669F8A /* fruit.jpeg */,
+				C9DF35922928B4FF00669F8A /* meat.jpeg */,
+				C9DF35932928B4FF00669F8A /* seafood.jpeg */,
+				C9DF358E2928B4FF00669F8A /* snack.jpeg */,
+				C9DF358F2928B4FF00669F8A /* starchy.png */,
+				C9DF358D2928B4FF00669F8A /* vegetable.jpeg */,
+			);
+			name = HistoryFacts;
+			sourceTree = "<group>";
+		};
+		C9400FC52939F16300C43A11 /* AniPic */ = {
+			isa = PBXGroup;
+			children = (
+				C95D53C9291BBFA700D84F72 /* Store.png */,
+				8E9CC5EA292F236500BAE394 /* น้ำอัดลม.jpg */,
+				8E9CC5E7292F236500BAE394 /* เนื้อ.jpg */,
+				8E9CC5E9292F236500BAE394 /* ผลไม้.jpg */,
+				8E9CC5E8292F236500BAE394 /* ผัก.jpg */,
+			);
+			name = AniPic;
+			sourceTree = "<group>";
+		};
+		C9400FC62939F18300C43A11 /* GS Theme */ = {
+			isa = PBXGroup;
+			children = (
+				C9400FC72939F19900C43A11 /* Reunited.mp3 */,
+				C9400FCD293A0D3300C43A11 /* play-button.png */,
+			);
+			name = "GS Theme";
+			sourceTree = "<group>";
+		};
+		C9400FD3293A46E900C43A11 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				8E2CB8AF292A46F700D37A78 /* Cell.swift */,
+				C9400FCF293A395400C43A11 /* Cell 2.swift */,
+			);
+			name = cell;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C9400FE8293CABFB00C43A11 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C9400FD5293CABF700C43A11 /* benjamin.ttf */,
+				C9400FD4293CABF600C43A11 /* LucyTheCatRegular-Bg9x.ttf */,
+				C9400FDB293CABF700C43A11 /* LucythecatRegular-R7mA.otf */,
+				C9400FDA293CABF700C43A11 /* Lulu.ttf */,
+				C9400FD9293CABF700C43A11 /* Mitr-Bold.ttf */,
+				C9400FD7293CABF700C43A11 /* Mitr-Medium.ttf */,
+				C9400FDC293CABF700C43A11 /* Mitr-Regular.ttf */,
+				C9400FD8293CABF700C43A11 /* Mitr-SemiBold.ttf */,
+				C9400FD6293CABF700C43A11 /* Silkscreen-Bold.ttf */,
+				C9400FDD293CABF700C43A11 /* Silkscreen-Regular.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		C95D536F291B396100D84F72 = {
+			isa = PBXGroup;
+			children = (
+				C9400FE8293CABFB00C43A11 /* Font */,
+				C9400FC62939F18300C43A11 /* GS Theme */,
+				C9DF356D29278F5F00669F8A /* account_GRDB.sqlite */,
+				8E8C7FD12929F192004F5676 /* Store.sqlite */,
+				C9400FD1293A3F4B00C43A11 /* Statistic.sqlite */,
+				8E16158E293DE26F007855D6 /* GoogleService-Info.plist */,
+				C9400FC52939F16300C43A11 /* AniPic */,
+				C9400FB62939EA2000C43A11 /* HistoryFacts */,
+				C9400FB52939E9E200C43A11 /* GifPic */,
+				8E9CC5E6292F21EA00BAE394 /* showpic */,
+				C95D53C0291BA96F00D84F72 /* Image */,
+				C95D537A291B396100D84F72 /* Grecory Store */,
+				C95D5391291B396400D84F72 /* Grecory StoreTests */,
+				C95D539B291B396400D84F72 /* Grecory StoreUITests */,
+				C95D5379291B396100D84F72 /* Products */,
+				8FC2B74745C9680C11098D41 /* Pods */,
+				CFD4445C59D52DED8A78FEA4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C95D5379291B396100D84F72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C95D5378291B396100D84F72 /* Grecory Store.app */,
+				C95D538E291B396400D84F72 /* Grecory StoreTests.xctest */,
+				C95D5398291B396400D84F72 /* Grecory StoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C95D537A291B396100D84F72 /* Grecory Store */ = {
+			isa = PBXGroup;
+			children = (
+				C95D537B291B396100D84F72 /* AppDelegate.swift */,
+				C95D537D291B396100D84F72 /* SceneDelegate.swift */,
+				C95D537F291B396100D84F72 /* ViewController.swift */,
+				C98BEC4A293D11E300676D46 /* Animated */,
+				8E9CD48E291FF84000DC1E60 /* Sign-in */,
+				8E0B25B0292938AA006A9028 /* pagedata */,
+				C9400FD3293A46E900C43A11 /* cell */,
+				C9DF358C2927DDC500669F8A /* Navigation */,
+				C95D5381291B396100D84F72 /* Main.storyboard */,
+				C95D5384291B396400D84F72 /* Assets.xcassets */,
+				C95D5386291B396400D84F72 /* LaunchScreen.storyboard */,
+				C95D5389291B396400D84F72 /* Info.plist */,
+			);
+			path = "Grecory Store";
+			sourceTree = "<group>";
+		};
+		C95D5391291B396400D84F72 /* Grecory StoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				C95D5392291B396400D84F72 /* Grecory_StoreTests.swift */,
+			);
+			path = "Grecory StoreTests";
+			sourceTree = "<group>";
+		};
+		C95D539B291B396400D84F72 /* Grecory StoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C95D539C291B396400D84F72 /* Grecory_StoreUITests.swift */,
+				C95D539E291B396400D84F72 /* Grecory_StoreUITestsLaunchTests.swift */,
+			);
+			path = "Grecory StoreUITests";
+			sourceTree = "<group>";
+		};
+		C95D53C0291BA96F00D84F72 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C9DF357D2927D49400669F8A /* product_view.png */,
+				C9DF35792927A16100669F8A /* calories.png */,
+				C9DF357A2927A16100669F8A /* import.png */,
+				C95D53D9291BC86C00D84F72 /* home.png */,
+				C95D53AC291B41F400D84F72 /* inventory.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		C98BEC4A293D11E300676D46 /* Animated */ = {
+			isa = PBXGroup;
+			children = (
+				C9400FAD2939E7F000C43A11 /* ImageGif.swift */,
+				C98BEC48293D11D900676D46 /* UIButtonExtension.swift */,
+			);
+			name = Animated;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C9DF358C2927DDC500669F8A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				8E69A7FB2921E81D000CB7EA /* N1.swift */,
+				C9DF357F2927DC9900669F8A /* N2.swift */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		CFD4445C59D52DED8A78FEA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA76D279B7CAAC3CA0575CC4 /* Pods_Grecory_Store.framework */,
+				3C5409BF37F2542E21364669 /* Pods_Grecory_Store_Grecory_StoreUITests.framework */,
+				AF4E8C83DC0FF45482CDE55D /* Pods_Grecory_StoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C95D5377291B396100D84F72 /* Grecory Store */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95D53A2291B396400D84F72 /* Build configuration list for PBXNativeTarget "Grecory Store" */;
+			buildPhases = (
+				B68957D53E2EF614CE1AAFAC /* [CP] Check Pods Manifest.lock */,
+				C95D5374291B396100D84F72 /* Sources */,
+				C95D5375291B396100D84F72 /* Frameworks */,
+				C95D5376291B396100D84F72 /* Resources */,
+				BA8CAA6726D2231D13062772 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grecory Store";
+			packageProductDependencies = (
+				8E16158C293DE221007855D6 /* FirebaseAuth */,
+			);
+			productName = "Grecory Store";
+			productReference = C95D5378291B396100D84F72 /* Grecory Store.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C95D538D291B396400D84F72 /* Grecory StoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95D53A5291B396400D84F72 /* Build configuration list for PBXNativeTarget "Grecory StoreTests" */;
+			buildPhases = (
+				03CEE585513C4C9E6090CCE0 /* [CP] Check Pods Manifest.lock */,
+				C95D538A291B396400D84F72 /* Sources */,
+				C95D538B291B396400D84F72 /* Frameworks */,
+				C95D538C291B396400D84F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C95D5390291B396400D84F72 /* PBXTargetDependency */,
+			);
+			name = "Grecory StoreTests";
+			productName = "Grecory StoreTests";
+			productReference = C95D538E291B396400D84F72 /* Grecory StoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C95D5397291B396400D84F72 /* Grecory StoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95D53A8291B396400D84F72 /* Build configuration list for PBXNativeTarget "Grecory StoreUITests" */;
+			buildPhases = (
+				E54D42408FD2CD25E9FBD504 /* [CP] Check Pods Manifest.lock */,
+				C95D5394291B396400D84F72 /* Sources */,
+				C95D5395291B396400D84F72 /* Frameworks */,
+				C95D5396291B396400D84F72 /* Resources */,
+				5632F1F8365DC756D6BB58A1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C95D539A291B396400D84F72 /* PBXTargetDependency */,
+			);
+			name = "Grecory StoreUITests";
+			productName = "Grecory StoreUITests";
+			productReference = C95D5398291B396400D84F72 /* Grecory StoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C95D5370291B396100D84F72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C95D5377291B396100D84F72 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					C95D538D291B396400D84F72 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = C95D5377291B396100D84F72;
+					};
+					C95D5397291B396400D84F72 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = C95D5377291B396100D84F72;
+					};
+				};
+			};
+			buildConfigurationList = C95D5373291B396100D84F72 /* Build configuration list for PBXProject "Grecory Store" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C95D536F291B396100D84F72;
+			packageReferences = (
+				8E16158B293DE221007855D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C95D5379291B396100D84F72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C95D5377291B396100D84F72 /* Grecory Store */,
+				C95D538D291B396400D84F72 /* Grecory StoreTests */,
+				C95D5397291B396400D84F72 /* Grecory StoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C95D5376291B396100D84F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9400FC02939F15E00C43A11 /* 004.jpg in Resources */,
+				C9400FC42939F15E00C43A11 /* 005.jpeg in Resources */,
+				C9400FB42939E9DE00C43A11 /* run.gif in Resources */,
+				8E16158F293DE26F007855D6 /* GoogleService-Info.plist in Resources */,
+				C9400FE5293CABF700C43A11 /* LucythecatRegular-R7mA.otf in Resources */,
+				C9DF35A12928C1C100669F8A /* noodles.jpeg in Resources */,
+				C9DF357B2927A16100669F8A /* calories.png in Resources */,
+				C9DF357C2927A16100669F8A /* import.png in Resources */,
+				C9400FE4293CABF700C43A11 /* Lulu.ttf in Resources */,
+				8E9CC5EC292F236600BAE394 /* ผัก.jpg in Resources */,
+				C9DF356E29278F5F00669F8A /* account_GRDB.sqlite in Resources */,
+				C9400FE6293CABF700C43A11 /* Mitr-Regular.ttf in Resources */,
+				C95D53B0291B41F400D84F72 /* inventory.png in Resources */,
+				C95D53D4291BBFA700D84F72 /* Store.png in Resources */,
+				C9400FC12939F15E00C43A11 /* 003.jpg in Resources */,
+				C9DF35992928B4FF00669F8A /* fruit.jpeg in Resources */,
+				C9400FDE293CABF700C43A11 /* LucyTheCatRegular-Bg9x.ttf in Resources */,
+				C9400FC22939F15E00C43A11 /* 002.jpg in Resources */,
+				C95D5388291B396400D84F72 /* LaunchScreen.storyboard in Resources */,
+				C9DF35A22928C1C100669F8A /* legume.jpeg in Resources */,
+				C9DF359A2928B4FF00669F8A /* meat.jpeg in Resources */,
+				C9400FE7293CABF700C43A11 /* Silkscreen-Regular.ttf in Resources */,
+				C95D53DA291BC86C00D84F72 /* home.png in Resources */,
+				C9400FB32939E9DE00C43A11 /* sale.gif in Resources */,
+				8E8C7FD22929F192004F5676 /* Store.sqlite in Resources */,
+				C95D5385291B396400D84F72 /* Assets.xcassets in Resources */,
+				C9400FE2293CABF700C43A11 /* Mitr-SemiBold.ttf in Resources */,
+				C9400FD2293A3F4B00C43A11 /* Statistic.sqlite in Resources */,
+				C9400FC32939F15E00C43A11 /* 006.jpg in Resources */,
+				8E9CC5EE292F236600BAE394 /* น้ำอัดลม.jpg in Resources */,
+				C9400FB22939E9DE00C43A11 /* cart.gif in Resources */,
+				C9DF35982928B4FF00669F8A /* dairy.jpeg in Resources */,
+				C9DF359B2928B4FF00669F8A /* seafood.jpeg in Resources */,
+				C9400FC82939F19900C43A11 /* Reunited.mp3 in Resources */,
+				8E9CC5ED292F236600BAE394 /* ผลไม้.jpg in Resources */,
+				8E9CC5EB292F236600BAE394 /* เนื้อ.jpg in Resources */,
+				C9DF35962928B4FF00669F8A /* snack.jpeg in Resources */,
+				C9DF359C2928B4FF00669F8A /* drink.jpeg in Resources */,
+				C9400FCA2939FF4200C43A11 /* 001.jpg in Resources */,
+				C9DF35972928B4FF00669F8A /* starchy.png in Resources */,
+				C9DF35952928B4FF00669F8A /* vegetable.jpeg in Resources */,
+				C9400FE1293CABF700C43A11 /* Mitr-Medium.ttf in Resources */,
+				C9400FE0293CABF700C43A11 /* Silkscreen-Bold.ttf in Resources */,
+				C95D5383291B396100D84F72 /* Main.storyboard in Resources */,
+				C9400FE3293CABF700C43A11 /* Mitr-Bold.ttf in Resources */,
+				C9400FDF293CABF700C43A11 /* benjamin.ttf in Resources */,
+				C9DF357E2927D49400669F8A /* product_view.png in Resources */,
+				C9400FBE2939F15E00C43A11 /* 007.jpg in Resources */,
+				C9400FCE293A0D3300C43A11 /* play-button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95D538C291B396400D84F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95D5396291B396400D84F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03CEE585513C4C9E6090CCE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grecory StoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5632F1F8365DC756D6BB58A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grecory Store-Grecory StoreUITests/Pods-Grecory Store-Grecory StoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grecory Store-Grecory StoreUITests/Pods-Grecory Store-Grecory StoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Grecory Store-Grecory StoreUITests/Pods-Grecory Store-Grecory StoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B68957D53E2EF614CE1AAFAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grecory Store-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA8CAA6726D2231D13062772 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grecory Store/Pods-Grecory Store-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grecory Store/Pods-Grecory Store-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Grecory Store/Pods-Grecory Store-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E54D42408FD2CD25E9FBD504 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grecory Store-Grecory StoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C95D5374291B396100D84F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DF358A2927DD7C00669F8A /* Page 4.swift in Sources */,
+				C95D5380291B396100D84F72 /* ViewController.swift in Sources */,
+				C9DF359E2928B8F500669F8A /* Page 4 Extra.swift in Sources */,
+				C95D537C291B396100D84F72 /* AppDelegate.swift in Sources */,
+				C9DF35882927DD5900669F8A /* Page 3.swift in Sources */,
+				8E69A7FC2921E81D000CB7EA /* N1.swift in Sources */,
+				C95D537E291B396100D84F72 /* SceneDelegate.swift in Sources */,
+				C98BEC49293D11D900676D46 /* UIButtonExtension.swift in Sources */,
+				C9DF35802927DC9900669F8A /* N2.swift in Sources */,
+				C9400FAE2939E7F000C43A11 /* ImageGif.swift in Sources */,
+				C9400FD0293A395400C43A11 /* Cell 2.swift in Sources */,
+				C9DF35822927DCDD00669F8A /* Page 1.swift in Sources */,
+				8E2CB8B0292A46F700D37A78 /* Cell.swift in Sources */,
+				C9DF35862927DD3B00669F8A /* Page 2 Extra.swift in Sources */,
+				C9DF35842927DD1700669F8A /* Page 2.swift in Sources */,
+				C95D53DE291C07EA00D84F72 /* Login.swift in Sources */,
+				C95D53E0291C081F00D84F72 /* SignUp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95D538A291B396400D84F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95D5393291B396400D84F72 /* Grecory_StoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95D5394291B396400D84F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95D539F291B396400D84F72 /* Grecory_StoreUITestsLaunchTests.swift in Sources */,
+				C95D539D291B396400D84F72 /* Grecory_StoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C95D5390291B396400D84F72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C95D5377291B396100D84F72 /* Grecory Store */;
+			targetProxy = C95D538F291B396400D84F72 /* PBXContainerItemProxy */;
+		};
+		C95D539A291B396400D84F72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C95D5377291B396100D84F72 /* Grecory Store */;
+			targetProxy = C95D5399291B396400D84F72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C95D5381291B396100D84F72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95D5382291B396100D84F72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C95D5386291B396400D84F72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95D5387291B396400D84F72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C95D53A0291B396400D84F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C95D53A1291B396400D84F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C95D53A3291B396400D84F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09AC7A8232C22E046550C1C2 /* Pods-Grecory Store.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Grecory Store/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cosci.Grecory-Store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C95D53A4291B396400D84F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3B7065F72D5F0CD9E5AC86E /* Pods-Grecory Store.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Grecory Store/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cosci.Grecory-Store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C95D53A6291B396400D84F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15E91A8668107145F883647 /* Pods-Grecory StoreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cosci.Grecory-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grecory Store.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Grecory Store";
+			};
+			name = Debug;
+		};
+		C95D53A7291B396400D84F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E201C86F99E18C629A200949 /* Pods-Grecory StoreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cosci.Grecory-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grecory Store.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Grecory Store";
+			};
+			name = Release;
+		};
+		C95D53A9291B396400D84F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724AA0A57632242E6C3E3857 /* Pods-Grecory Store-Grecory StoreUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cosci.Grecory-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Grecory Store";
+			};
+			name = Debug;
+		};
+		C95D53AA291B396400D84F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0760E3E71CDFCDE108362227 /* Pods-Grecory Store-Grecory StoreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cosci.Grecory-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Grecory Store";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C95D5373291B396100D84F72 /* Build configuration list for PBXProject "Grecory Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95D53A0291B396400D84F72 /* Debug */,
+				C95D53A1291B396400D84F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95D53A2291B396400D84F72 /* Build configuration list for PBXNativeTarget "Grecory Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95D53A3291B396400D84F72 /* Debug */,
+				C95D53A4291B396400D84F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95D53A5291B396400D84F72 /* Build configuration list for PBXNativeTarget "Grecory StoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95D53A6291B396400D84F72 /* Debug */,
+				C95D53A7291B396400D84F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95D53A8291B396400D84F72 /* Build configuration list for PBXNativeTarget "Grecory StoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95D53A9291B396400D84F72 /* Debug */,
+				C95D53AA291B396400D84F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E16158B293DE221007855D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E16158C293DE221007855D6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E16158B293DE221007855D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C95D5370291B396100D84F72 /* Project object */;
+}
